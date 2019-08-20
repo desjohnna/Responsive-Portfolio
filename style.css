@@ -161,6 +161,7 @@ img {
 }
 
 /* 980PX */
+
 @media screen and (max-width: 980px) {
     #mainSectionContent {
         margin-top: -50px;
@@ -173,25 +174,31 @@ img {
     }
 }
 
-
-
 /* 768px */
+
 @media screen and (max-width: 768px) {
     #mainSectionContent {
-        
-        width: px;
-        margin-bottom: 300px;
+        padding: 20px;
+        margin: auto;
+        height: 100%;
+        width: 100%;
        
     }
     #navbar {
-        padding: 0px 10px;
+        padding: 0px 30px;
+    }
+
+    #frame{
+        padding: 30px;
     }
 }
 
+
+/* 640px */
 @media screen and (max-width: 640px) {
     #mainSectionContent {
         position: static;
-        margin: -50px;
+        margin: auto;
         /* padding: - */
     }
 }
