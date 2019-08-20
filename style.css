@@ -1,0 +1,197 @@
+/* @media screen and (max-width: 980px) { */
+
+text {
+    color: #777777;
+    font-size: 17px;
+}
+
+/* ----------------NAVBAR------------------------ */
+
+#navbar {
+    background-color: #ffffff;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 980px;
+    margin: auto;
+    padding: 0;
+}
+
+/* Leftside of navbar, DJ Gray */
+
+.nameLogo {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 30px 50px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #4aaaa5;
+}
+
+/* Right side of navbar, LINKS */
+
+#linksContainer {
+    float: right;
+}
+
+.links {
+    float: left;
+    text-align: right;
+    color: #777777;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/*navbar hover */
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: cornflowerblue;
+}
+
+/* ----------------END OF NAVBAR------------------------ */
+
+/* FRAME AROUND ABOUT ME SECTION */
+
+#frame {
+    background: url(images/bodyBackground/dust_scratches/dust_scratches.png);
+    padding: 100px;
+    border-top: 2px solid #cccccc;
+    /* LINE ABOVE FOOTER */
+    border-bottom: 10px #4aaaa5;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+}
+
+#mainSectionContent {
+    background-color: #ffffff;
+    max-width: 960px;
+    margin: auto;
+    padding: 30px;
+    /* CLEARFIXING PROFILE PIC TO STAY IN DIV AND FLOAT-LEFT */
+    overflow: auto;
+    clear: both;
+}
+
+#profilePic, #pageText {
+    padding: 10px;
+    float: left;
+    color: #777777;
+}
+
+#submitBtn {
+    width: initial;
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.text {
+    color: #777777;
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    margin: 5px 0px 10px 0px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    margin: 10px;
+}
+
+#profilePic {
+    width: 100px;
+    height: auto;
+    /* float: left; */
+}
+
+h1 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: #dddddd;
+}
+
+#footer>p {
+    color: #ffffff;
+}
+
+#footer {
+    background-color: #666666;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    border: 10px;
+}
+
+/* PICTURE CARDS CSS */
+
+.row {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+img {
+    /* TRY WITH PX */
+    height: 100%;
+    width: 100%;
+}
+
+/* 980PX */
+@media screen and (max-width: 980px) {
+    #mainSectionContent {
+        margin-top: -50px;
+        margin-left: -50px;
+        width: 75%;
+        margin-bottom: 300px;
+    }
+    #navbar {
+        padding: 0px 50px;
+    }
+}
+
+
+
+/* 768px */
+@media screen and (max-width: 768px) {
+    #mainSectionContent {
+        
+        width: px;
+        margin-bottom: 300px;
+       
+    }
+    #navbar {
+        padding: 0px 10px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #mainSectionContent {
+        position: static;
+        margin: -50px;
+        /* padding: - */
+    }
+}
