@@ -166,9 +166,9 @@ img {
         margin-left: -50px;
         width: 75%;
         margin-bottom: 300px;
-         /* CLEARFIXING PROFILE PIC TO STAY IN DIV AND FLOAT-LEFT */
-    overflow: auto;
-    clear: both;
+        /* CLEARFIXING PROFILE PIC TO STAY IN DIV AND FLOAT-LEFT */
+        overflow: auto;
+        clear: both;
     }
     #navbar {
         padding: 0px 50px;
@@ -200,45 +200,31 @@ img {
         margin: auto;
         height: 100%;
         width: 100%;
-             /* CLEARFIXING PROFILE PIC TO STAY IN DIV AND FLOAT-LEFT */
-    overflow: auto;
-    clear: both;
+        /* CLEARFIXING PROFILE PIC TO STAY IN DIV AND FLOAT-LEFT */
+        overflow: auto;
+        clear: both;
     }
     .nameLogo {
         width: 100%;
         float: left;
-        
         /* position: static; */
     }
-
     #navbar {
         padding: 0;
         width: 100%;
-        
-      
     }
-
-    .links {
-        text-align: left;
-        /* width: 100%; */
-        float: left;
-        margin: auto;
-        position: static;
-
-       }
-
     #profilePic {
         width: 100%;
     }
-
     #pageText>p {
-        padding: 10px;
+        /* padding: 10px; */
         margin: auto;
-          float: left;
+        float: left;
     }
-
     #linksContainer {
-float: left;  
-margin: auto;
-  }
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        padding-left: 100px;
+    }
 }
